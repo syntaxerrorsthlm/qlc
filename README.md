@@ -12,15 +12,24 @@ output universe 1: UART
 input universe 2: nanoKontrol2
 feedback universe 2: nanoKontrol2
 
-### wishlist
-- Inno Pocket Roll actually rolling, it's currently working more like a moving head which looks dumb and lacks energy
-- Color choices for the LED bars, most animations are preset to red, would be great with an RGB knob selection
-- Animation mapping choices for the LED bars, only 6 are mapped and half are good, half are useless
-- Speed presets for Pocket Roll, low, mid and high intensity or a speed knob for the rolling and a tap button for pattern change interval
-  - Or presets for: dansgolvsjenga, warmup and high energy
-- FX Smoke machine can do a lot more than just puff some red smoke
-- Cubix 2.0 and the twin laser is not yet connected, would be useful to be able to black those out using Grand Master at least
-- Pocket Roll moving head aim, use two knobs or faders to control roll and pan so it can be used as a search light without going to simple desk
-- a simple way to update the mapping image, or a text table that's understandable
+## Fixtures
+### connected
+- 2x Octafly XS ("beams")
+- 1x Rotobeam w. DMX ofF/on switch ("spinner")
+- 3x LED bars w. 3 RGB segments each ("led bars"
+- 1x Strobe ("strobe"
+- 1x UV bar ("uv)
+- 1x Blinder bar ("blinder")
+- 1x Fog Fury Jett ("co2 smoke")
+- 1x Entoruage Hazer ("hazer") (only connected during Syntax Error events)
+
+### not connected (yet)
+- 2x UV Floods
+- 1x Pocket Roll
+- 1x twin laser
+- 1x Cubix 2.0
+
+### todo
+- Switch to TouchOSC for the user interface using a 10" Android tablet and the new stable WiFi (separate VLAN?)
 
 ![NanoKontrol2 Mapping](/H62.png)
